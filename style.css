@@ -1,0 +1,491 @@
+*{
+    margin: 0px;
+    padding:0px;
+    /* background-color: rgb(195, 192, 192); */
+}
+/* header */
+/* .fa-solid{
+    height: auto;
+    width: auto;
+    align-content: center   ;
+} */
+#top{
+    color: rgb(245, 10, 10);
+    text-align: center;
+    font-size: 46px;
+    /* font-weight: ; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#top1{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+.header::before{
+    content: '';
+    background: url(test.webp) no-repeat center center/cover;
+    width: 100vw;
+    height:59vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: bold;
+    z-index: -1;
+    opacity: 0.45;
+    border: 2px solid black;
+}
+/* navbar */
+#navbar{
+    display: flex;
+    flex-direction: column;
+    background-color:peachpuff;
+    height: 14vh;
+    width: 100vw;
+    border: 2px solid black;
+}
+#navcontent{
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    list-style: none;
+    padding: 15px 10px;
+    margin: 5px;
+    border: 7px black unset;
+}
+ul li a{
+    padding: 1px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+ul li a:hover{
+    background-color:black;
+    border-radius: 5px;
+}
+#container1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 63vh;
+}
+#container1::before{
+    content: '';
+    background:url(download.webp) no-repeat center center/cover;
+    width: 100vw;
+    height:63vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: bold;
+    z-index: -1;
+    opacity: 0.89;
+    border: 2px solid black;
+}
+#row1{
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-top:35px ;
+}
+/* button */
+.btn{
+    margin-top: 15px;
+    border: 1px double black;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+
+#container3{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#row2{
+    width: 24vw;
+    height: 21vh;
+    box-shadow: 2px 7px 16px 19px;
+    margin-top: 51px;
+    margin-bottom: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    margin-right: 58px;
+    border-radius: 20px;
+}
+#row2::before{
+    content: '';
+    background: url(price.webp)no-repeat center center/cover;
+    position: absolute;
+    display: flex;
+    top: 0px;
+    left: 0;
+    width: 24vw;
+    height: 21vh;
+    z-index: -1;
+    border: radius 20px; ;
+}
+#row3{
+    width: 24vw;
+    height: 21vh;
+    box-shadow: 2px 7px 16px 19px;
+    margin-top: 51px;
+    margin-bottom: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    margin-right: 58px;
+    border-radius: 20px;
+}
+#row3::before{
+    content: '';
+    background:url(special.jpg) no-repeat center center/cover;
+    position: absolute;
+    display: flex;
+    top: 0px;
+    left: 0;
+    width: 24vw;
+    height: 21vh;
+    z-index: -1;
+    border: radius 20px; ;
+}
+#top2{
+    text-align: center;
+    color: red;
+
+}
+#container2{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 55px;
+}
+#container3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    margin: 41px;
+}
+#row4{
+    width: 29vw;
+    height: 360px;
+    border: 2px solid black;
+    background: url(row4.webp) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 10px;
+}
+#row5{
+    width: 29vw;
+    height: 360px;
+    border: 2px solid black;
+    background: url(row5.webp) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 10px;
+}
+.row6{
+    width: 29vw;
+    height: 360px;
+    border: 2px solid black;
+    background: url(row6.webp) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 10px;
+}
+/* footer */
+footer{
+    text-align: center;
+    text-decoration: underline;
+}
+/* contact us */
+/* #form{
+    /* text-align: center; */
+/* } */
+#contactUs{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:lavender;
+}
+#h11{
+    background-color: lavender;
+    text-align: center;
+    text-decoration: underline;
+}
+#form1{
+    border: 2px solid black;
+    padding :20px;
+    /* width:30%;   */
+    width:auto;
+    text-align: center;
+    /* position: relative; */
+    text-decoration: solid;
+}
+.form-shape{
+    padding: 4px;
+    margin: 10px;
+}
+.form-shape1{
+    padding: 4px;
+    margin: 10px;
+}
+.form-shape2{
+    padding: 4px;
+    margin: 10px;
+}
+#query{
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+#message{
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    
+}
+
+#name{
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+#email{
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  
+}
+#phone{
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  
+}
+
+::placeholder{
+    color: whitesmoke;
+}
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=reset] {
+    background-color: #737575;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #838983;
+  }
+input[type=reset]:hover {
+    background-color: #45a049;
+  }
+  .containeR {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 2px solid black;
+  }
+/* @media only screen and (max-width:1131px){
+    #row4{
+        width: 42vw;
+    }
+    #row5{
+        width:45vw;
+    }
+    #row6{
+        margin-top: 20px;
+        width:90vw;
+    }
+}
+@media only screen and (min-width:600px) and (max-width:781px)
+{
+    #row4{
+        width:84vw;
+        margin: auto;
+        margin-left: 22px;
+    }
+    #row5{
+        
+        width:84vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 22px;
+    }
+    #row6{
+        width:84vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 22px;
+    }
+} */
+/* @media only screen and (max-width:600px){
+    #row4{
+        width:78vw;
+        margin: auto;
+        margin-left: 3px;
+    }
+    #row5{
+        
+        width:78vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 3px;
+    }
+    #row6{
+        width:78vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 3px;
+    }
+}
+@media only screen and (min-height:1000px){
+    #navbar{
+        height:10vh;
+    }
+    #container1::before{
+        height:39vh;
+    }
+    #container1{
+        height:44vh
+    }
+} */
+.head{
+    text-align: center;
+    text-shadow: 2px 3px 2px white;
+    background-color: palevioletred;
+    padding: 30px;
+
+}
+.img{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 59vh;
+}
+.img::before{
+    content: '';
+    background:url(foodpanda-italian-blue-scaled.jpg) no-repeat center center/cover;
+    width: 100vw;
+    height: 59vh;
+    position:absolute;
+    opacity: 0.77;
+}
+#img1{
+    color: black;
+    font-weight: bold;
+    font-size: xx-large;
+    opacity: 1;
+    text-shadow: 2px 3px 2px white;
+    text-align:center;
+    /* padding-left: 40% 40%; */
+    margin: 130px;
+}
+#leak{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(237, 228, 227);
+    font-size: larger;
+}
+.our{
+    background-color: palevioletred;
+    padding:25px;
+}
+.mission{
+    color:white;
+    padding-top: 20px;
+    padding-left: 20px;
+    /* background-color: palevioletred; */
+    margin: auto;
+    font-size: x-large;
+}
+.last2{
+    text-align: center;
+    padding: 10px;
+
+}
+#p1 {
+    padding: 5px;
+    font-size: larger;
+    background-color: #f2f2f2;
+}
+#p2 {
+    padding: 5px;
+    font-size: larger;
+    background-color: #f2f2f2;
+}
+#p{
+    font-size: x-large;
+}
+.how{
+    text-align: center;
+    padding: 10px;
+    
+}
+#h{
+    padding: 5px;
+    font-size: 50px;
+}
+#hh{
+    padding: 5px;
+    font-size: xx-large;
+}
+#hhh{
+    padding: 5px;
+    font-size: xx-large;
+
+}
+#hhhh{    font-size: xx-large;
+
+    padding: 5px;
+}
